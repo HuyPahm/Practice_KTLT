@@ -8,7 +8,7 @@ int main() {
     double arr[20]; 
     
     do {
-        printf("Nhap so phan tu (2 < n < 10): ");
+        printf("Nhap (2 < n < 10): ");
         scanf("%d", &n);
     } while (!In_Range(n, 3, 9));
 
