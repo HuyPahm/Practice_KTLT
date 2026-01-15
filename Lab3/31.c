@@ -47,7 +47,7 @@ int timMaxFor(int a[], int n) {
         if (a[i] > max)
             max = a[i];
     }
-    return max;
+    return max;+
 }
 
 // Tìm giá trị lớn nhất bằng đệ quy
